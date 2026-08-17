@@ -26,6 +26,7 @@ SECRET_KEY = "django-insecure-efnnim5eid1=9q9ejb&qz_m#$l0*d8!y)f=lzim-dx9_m2zq4h
 DEBUG = True
 
 ALLOWED_HOSTS = []
+API_URL = 'https://jsonplaceholder.typicode.com/posts'
 
 
 # Application definition
