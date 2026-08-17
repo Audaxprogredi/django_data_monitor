@@ -81,7 +81,15 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = [
+  "https://*.app.github.dev", # Solo si utiliza Codespaces
+  "https://localhost:8000",
+  "http://127.0.0.1:8000"
+]
 
+ALLOWED_HOSTS = [
+  "*",
+]
 # Password validation
 # https://docs.djangoproject.com/en/6.1/ref/settings/#auth-password-validators
 

@@ -12,6 +12,7 @@ def index(request):
     data = {
         'title': "Landing Page' Dashboard",
         'total_responses': total_responses,
+        "posts" : posts[:10],
 
     }
 
